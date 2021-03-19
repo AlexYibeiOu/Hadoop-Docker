@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# This shell script file will be uploat to namenode:/bin
+
+params=$@
+
+echo ============= namenode $params =============
+ssh namenode "$params"
+
+
+echo ============= datanode1 $params =============
+ssh datanode1 "$params"
+
+
+echo ============= datanode2 $params =============
+ssh datanode2 "$params"

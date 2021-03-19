@@ -1,0 +1,36 @@
+local => 192.168.1.104:65113
+remote => 192.168.1.104:2512
+failed read udp msg: 0 read udp 192.168.1.104:65113->192.168.1.104:2512: read: connection refused
+local => 192.168.1.104:61428
+remote => 192.168.1.104:2512
+failed read udp msg: 0 read udp 192.168.1.104:61428->192.168.1.104:2512: read: connection refused
+local => 192.168.1.104:61461
+remote => 192.168.1.104:2512
+failed read udp msg: 0 read udp 192.168.1.104:61461->192.168.1.104:2512: read: connection refused
+local => 192.168.1.104:62995
+remote => 192.168.1.104:2512
+failed read udp msg: 0 read udp 192.168.1.104:62995->192.168.1.104:2512: read: connection refused
+local => 192.168.1.104:59720
+remote => 192.168.1.104:2512
+failed read udp msg: 0 read udp 192.168.1.104:59720->192.168.1.104:2512: read: connection refused
+local => 192.168.1.104:60915
+remote => 192.168.1.104:2512
+failed read udp msg: 0 read udp 192.168.1.104:60915->192.168.1.104:2512: read: connection refused
+local => 192.168.1.104:56951
+remote => 192.168.1.104:2512
+failed read udp msg: 0 read udp 192.168.1.104:56951->192.168.1.104:2512: read: connection refused
+local => 192.168.1.104:51832
+remote => 192.168.1.104:2512
+failed read udp msg: 0 read udp 192.168.1.104:51832->192.168.1.104:2512: read: connection refused
+local => 192.168.1.104:62630
+remote => 192.168.1.104:2512
+failed read udp msg: 0 read udp 192.168.1.104:62630->192.168.1.104:2512: read: connection refused
+local => 192.168.1.104:56210
+remote => 192.168.1.104:2512
+failed read udp msg: 0 read udp 192.168.1.104:56210->192.168.1.104:2512: read: connection refused
+local => 192.168.1.104:51773
+remote => 192.168.1.104:2512
+failed read udp msg: 0 read udp 192.168.1.104:51773->192.168.1.104:2512: read: connection refused
+local => 192.168.1.104:49713
+remote => 192.168.1.104:2512
+failed read udp msg: 0 read udp 192.168.1.104:49713->192.168.1.104:2512: read: connection refused
