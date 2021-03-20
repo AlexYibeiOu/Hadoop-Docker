@@ -65,8 +65,10 @@ docker start namenode
 docker cp ./bootstrap.sh namenode:/etc/bootstrap.sh
 docker cp ./xcall namenode:/bin/xcall
 docker cp ./yarn-site.xml namenode:/usr/local/hadoop/etc/hadoop/yarn-site.xml
-docker cp ./yarn-site.xml datanode1:/usr/local/hadoop/etc/hadoop/yarn-site.xml
-docker cp ./yarn-site.xml datanode2:/usr/local/hadoop/etc/hadoop/yarn-site.xml
+for i in $(seq 1 $N)
+do
+    docker cp ./yarn-site.xml datanode$i:/usr/local/hadoop/etc/hadoop/yarn-site.xml
+done
 echo ""
 
 echo "Start Cluster Step 5 (total 5 steps):"
