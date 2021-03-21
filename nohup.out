@@ -37,3 +37,6 @@ failed read udp msg: 0 read udp 192.168.1.104:49713->192.168.1.104:2512: read: c
 local => 192.168.1.104:51869
 remote => 192.168.1.104:2512
 failed read udp msg: 0 read udp 192.168.1.104:51869->192.168.1.104:2512: read: connection refused
+local => 192.168.1.104:50057
+remote => 192.168.1.104:2512
+failed read udp msg: 0 read udp 192.168.1.104:50057->192.168.1.104:2512: read: connection refused
