@@ -4,6 +4,9 @@
 
 # This shell script file is also called by start-cluster.sh
 
+echo "Stopping Spark History Server..."
+/usr/local/spark/sbin/stop-history-server.sh
+
+echo "Stopping Spark Cluster..."
 /usr/local/spark/sbin/stop-all.sh
 
-/usr/local/spark/sbin/stop-history-server.sh
