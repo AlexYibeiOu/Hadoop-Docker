@@ -2,6 +2,18 @@ Hadoop cluster using Docker
 ==========
 This repository contains Docker file to build a Docker image with Hadoop, Spark, HBase, Hive, Zookeeper and Kafka. The accompanying scripts can be used to start and stop the clusters easily.
 
+This repository is combined and improved by below two repositories:
+
+https://github.com/DenivaldoCruz/dcruz-hadoop-cluster
+It offers hadoop cluster on docker.
+
+https://github.com/wenjunxiao/mac-docker-connector
+It provide a connector to asscess containers by IP Address.
+
+My improvement at the moment is:
+1 Built in Spark Cluster
+
+
 ## Pull the image
 
 The image is released as an official Docker image from Docker's automated build repository - you can always pull or refer the image when launching containers.
